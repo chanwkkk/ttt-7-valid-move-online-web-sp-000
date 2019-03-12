@@ -5,7 +5,7 @@
 def position_taken? (board, index)
   if (board[index]=="X")||(board[index]=="O")
     true
-  else false
+#  the "else false" doesn't necessarily have to be put here because without it, the method will return "nil", which is considered to be falsey too
   end
 end
 
